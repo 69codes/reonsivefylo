@@ -1,0 +1,237 @@
+@media (max-width: 480px) {
+    body {
+        background-image: url(../fylo-data-storage-component-master/images/bg-mobile.png);
+        background-size: cover;
+        font-family: 'Raleway', sans-serif;;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        margin-top: 35%; 
+        justify-content: space-between;
+        height: 430px ; /*calculate then use space between*/
+        
+    }
+    .div1{
+        width: 94%;
+        height: 200px;
+        background-color:hsl(228, 56%, 26%);
+        border-radius: 0.5em;
+        border-top-right-radius: 5.7em;
+    }
+    .div2{
+        width: 94%;
+        height: 150px;
+        background-color: hsl(228, 56%, 26%);
+        color: hsl(243, 100%, 93%);
+        font-size: 14px;
+        padding-top: 20px;
+        border-radius: 0.5em;
+    }
+    .div3{
+        width: 50%;
+        height: 60px;
+        background-color: white;
+        margin-top: -10%;
+        text-align: center;
+        border-radius: 0.5em;
+    }
+    .pbar{
+        background-color: hsl(228, 34%, 11%);
+        border-radius: 20px;
+        width: 80%;
+        margin-left: 10%;
+        height: 12px;
+        position: relative;
+        padding: 2px;
+        margin-bottom: 1.6%;
+        
+    }
+    .pbar2{
+        display: block;
+        border-radius: 10px;
+        height: 100%;
+        width: 85%;
+        background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        position: relative;
+    }
+    .p3{
+        height: 9.5px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        width: 10px;
+        float: right;
+        margin-right: 2px;
+        margin-top: 1.1px;
+    }
+    .line1{
+        text-align: center;
+    }
+    .s {
+        margin-left: 10%;
+    }
+    .s2{
+        margin-left: 55%;
+    }
+    .ss{
+        text-align: center;
+    }
+    .ss1{
+        font-weight: 900;
+        font-size: 35px;
+        padding: 10px;
+        text-align: center;
+    }
+    .ss2{
+        font-size: 10px;
+    }
+    .logo{
+        padding: 30px;
+    }
+    .stint{
+        margin-left: 20px;
+    }
+     .stint > span {
+         background-color: hsl(229, 57%, 11%); 
+         height: 20px;  
+         width: 13px;
+         padding: 10px 8px;
+         margin-left: 10px;
+         border-radius: 0.45em;
+         
+    }
+    .stint > .doc {
+        
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+}
+@media(min-width: 481px){
+
+
+ body {
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(../fylo-data-storage-component-master/images/bg-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 99.9% 50%;
+}
+      .wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    height: 430px ; 
+    margin-top: 7%;
+    margin-left: 9%;
+}
+
+.div1{
+    width: 24%;
+    height: 170px;
+    background-color:hsl(228, 56%, 26%);
+    border-radius: 0.5em;
+    border-top-right-radius: 5.7em;
+    margin-left: 9%;
+} 
+.div2{
+    width: 34%;
+    height: 100px;
+    background-color: hsl(228, 56%, 26%);
+    color: hsl(243, 100%, 93%);
+    font-size: 14px;
+    padding-top: 20px;
+    border-radius: 0.5em;
+    margin-top: 4%;
+    margin-left: 1.88%;
+}
+.div3{
+    width: 12%;
+    height: 60px;
+    background-color: white;
+    margin-top: -10%;
+    text-align: center;
+    border-radius: 0.5em;
+    margin-left: -15%;
+    margin-top: -7%;
+}
+.pbar{
+    background-color: hsl(228, 34%, 11%);
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10%;
+    height: 12px;
+    position: relative;
+    padding: 2px;
+    margin-bottom: 1.6%;
+    margin-top: ;
+    
+}
+.pbar2{
+    display: block;
+    border-radius: 10px;
+    height: 100%;
+    width: 85%;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    position: relative;
+}
+.p3{
+    height: 9.5px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    float: right;
+    margin-right: 2px;
+    margin-top: 1.1px;
+}
+.line1{
+    text-align: left;
+    margin-left: 10%;
+}
+.s {
+    margin-left: 10%;
+}
+.s2{
+    margin-left: 60%;
+}
+.ss{
+    text-align: center;
+}
+.ss1{
+    font-weight: 900;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+}
+.ss2{
+    font-size: 10px;
+}
+.logo{
+    padding: 30px;
+}
+.stint{
+    margin-left: 20px;
+}
+ .stint > span {
+     background-color: hsl(229, 57%, 11%); 
+     height: 20px;  
+     width: 13px;
+     padding: 10px 8px;
+     margin-left: 10px;
+     border-radius: 0.45em;
+     
+}
+.stint > .doc {
+    
+    padding-top: 13px;
+    padding-bottom: 10px;
+} 
+}
